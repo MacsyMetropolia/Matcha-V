@@ -17,8 +17,8 @@ How to install it ?
 -------------------------------
 After installing 'Stylish', you'll have to 'write a new style', copy/paste the code in 'Matcha (WITHOUT ADBLOCK).css' or 'Matcha (WITH ADBLOCK), name the style and then save ! Before installing it, I suggest you :
 
-- to install the font I used, namely 'Roboto' (www.fontsquirrel.com/fonts/rob…), don't worry it's free as fuck.
-- download Adblock Plus to kill the ads, but since Kissanime doesn't allow it you have to download Greasemonkey (for Mozilla) or Tampermonkey (for Google Chrome), and you will have to install the script 'Anti AdBlock Killer' (github.com/reek/anti-adblock-k…). 
+- to install the font I used, namely 'Roboto' (https://www.fontsquirrel.com/fonts/roboto), don't worry it's free as fuck.
+- download Adblock Plus to kill the ads, but since Kissanime doesn't allow it you have to download Greasemonkey (for Mozilla) or Tampermonkey (for Google Chrome), and you will have to install the script 'Anti AdBlock Killer' (https://reek.github.io/anti-adblock-killer/). 
 
 Where can I find your works ?
 -------------------------------
