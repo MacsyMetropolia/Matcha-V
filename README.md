@@ -1,27 +1,59 @@
-# Matcha
+# Matcha-V
 
-![screenshot](http://i.imgur.com/f8xTU2d.jpg)
-Streaming isn't that bad when you're too lazy to download a complete serie. Plus, 'Matcha' offer you a new experience !
+![screenshot](https://a.pomf.cat/gendpi.png)
+Preview of Matcha-V.
 
-What's an userstyle ?
+About
 -------------------------------
 
-Simply put, it's a script with a bunch of pseudo-code that will change the aspect of any website, it's kind like make-up I guess : you'll be able to change/modify the visual of the elements of the page (background, icon, buttons, etc...) and even delete some useless stuff. To use it, there is an add-on called 'Stylish' for the majority of the browser, so if you are on Chrome, Firefox, Opera and such go for it ! I also recommend you to go to userstyles.org (userstyles.org/) where you can found a lot of styles for a lot of website.
 
-What do 'Matcha' change ? 
+Matcha-V is a custom stylesheet for kissanime.
+
+A custom stylesheet (or userstyles) a script with a bunch of pseudo-code that will change the aspect of any website, it's kind like make-up I guess : you'll be able to change/modify the visual of the elements of the page (background, icon, buttons, etc...) and even delete some useless stuff.
+
+
+Instruction
 -------------------------------
 
-First of all it removes the fucking green who kills your eyes (at least for me), wanted to do a flat interface, add some transitions to add a bit of dynamism, there aren't any drastic modification in the functionality of the site tho ! Add a banner and a new logo which give a more modern look, you'll able to change them if they don't suite your taste.
+<strong>Step 1 : Install Stylish</strong>
 
-How to install it ?
+<span>Depending of your browser.</span>
+<ol>
+<li>for <a href="https://addons.mozilla.org/en-US/firefox/addon/stylish/">Mozilla Firefox</a></li>
+<li>for <a href="https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe?hl=en">Google Chrome</a></li>
+<li>for <a href="https://addons.opera.com/en/extensions/details/stylish/">Opera</a></li>
+<li>for <a href="http://sobolev.us/stylish/">Safari</a></li>
+<li> for <a href="https://play.google.com/store/apps/details?id=ru.pmmlabs.stylish&amp;hl=en">Dolphin</a></li>
+</ol>
+
+<strong>Step 2 : Install the script </strong>
+<ol>
+<li> Via <a href="https://userstyles.org/styles/144798/matcha-v-ka-css">userstyles</a> : click the button <i>install Style</i> and it's done.</li>
+<li> Or <a href="https://pastebin.com/AqGYzCfx">manually</a> : create a new style in Stylish and copy/paste the script in it. The script was written for Firefox Mozilla, that's why for Google Chrome and such, you'll have to click the button <i>Import from Mozilla.</i></li>
+</ol>
+
+<strong>Step 3 : Install the font </strong>
+
+I use several fonts for my custom stylesheet.
+<ol>
+<li> <a href="https://www.fontsquirrel.com/fonts/roboto">Roboto</a></li>
+<li> <a href="http://www.freejapanesefont.com/bokutachi-gothic-2-bold/">Bokutachi no Gothic 2 </a></li>
+</ol>
+
+<strong>Step 4 : Show your appreciation </strong>
+<ol>
+<li>Feel free to comment this submission (critique, suggestion, compliment, etc).</li>
+<li>If you like my works, don't hesitate to watch me.</li>
+<li>You can share it, but don't forget to mention me.</li>
+</ol>
+
+Trivia
 -------------------------------
-After installing 'Stylish', you'll have to 'write a new style', copy/paste the code in 'Matcha (WITHOUT ADBLOCK).css' or 'Matcha (WITH ADBLOCK), name the style and then save ! Before installing it, I suggest you :
 
-- to install the font I used, namely 'Roboto' (https://www.fontsquirrel.com/fonts/roboto), don't worry it's free as fuck.
-- download Adblock Plus to kill the ads, but since Kissanime doesn't allow it you have to download Greasemonkey (for Mozilla) or Tampermonkey (for Google Chrome), and you will have to install the script 'Anti AdBlock Killer' (https://reek.github.io/anti-adblock-killer/). 
+I decided to name the script Matcha-V because I drink a lot of tea and the green of the original layout of Kissanime made me think of Matcha, thus Matcha. The V comes from Vert, which means green in French, but I put this because it sounds cool to be honest, and to differenciate it with my previous kissanime script called Matcha.
 
-Where can I find your works ?
+
+Report
 -------------------------------
-I have a deviantart page : nicknameisfortheweak.deviantart.com, I also submit my script in pastebin : http://pastebin.com/u/Catgrills
 
-And that's it, I hope you'll enjoy this script if you see this submission ! Like usual, if you find the script cool or bad, if you have questions, suggestions, there is a section called 'Comments', you can use it everytime !
+If you find some elements that weren't tweaked or that you simply want to modify or re-add an element that was removed, don't hesitate to report it in the comments.
