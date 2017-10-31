@@ -49,7 +49,7 @@ I use several fonts for my custom stylesheet.
 Trivia
 -------------------------------
 
-I decided to name the script Bamboo because some anon suggested it to me (because Panda loves Bambo, right ?). The X comes from the famous slogan of Exhentai The X Makes It Sound Cool, and I used this letter to differenciate it with my previous Exhentai script called Bamboo.
+I decided to name the script Matcha-V because I drink a lot of tea and the green of the original layout of Kissanime made me think of Matcha, thus Matcha. The V comes from Vert, which means green in French, but I put this because it sounds cool to be honest, and to differenciate it with my previous kissanime script called Matcha.
 
 
 Report
