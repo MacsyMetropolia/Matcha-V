@@ -49,7 +49,7 @@ I use several fonts for my custom stylesheet.
 Trivia
 -------------------------------
 
-I decided to name the script Matcha-V because I drink a lot of tea and the green of the original layout of Kissanime made me think of Matcha, thus Matcha. The V comes from Vert, which means green in French, but I put this because it sounds cool to be honest, and to differenciate it with my previous kissanime script called Matcha.
+I decided to name the script <i>Matcha-V</i> because I drink a lot of tea and the green of the original layout of Kissanime made me think of Matcha, thus Matcha. The <i>V</i> comes from Vert, which means green in French, but I put this because it sounds cool to be honest, and to differenciate it with my previous kissanime script called <i>Matcha</i>.
 
 
 Report
