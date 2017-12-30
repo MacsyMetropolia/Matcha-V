@@ -1,4 +1,4 @@
-@-moz-document domain(kissanime.ru) {
+@-moz-document domain("kissanime.ru") {
 /* GENERAL */
 /** DESCRIPTION : set main font and background, plus remove some elements **/
         * {
@@ -34,7 +34,7 @@
 /* HEADER */
 /** DESCRIPTION : change the elements of the header/upper part **/
        #head h1 {
-            background: no-repeat url('https://imgur.com/aWEzWJF.jpg') center !important;
+            background: no-repeat url('https://i.imgur.com/4ARZMxf.jpg') center !important;
             background-size: cover !important;
             border-top: 10px solid #1ABC9C !important;
             border-bottom: 65px solid #005057 !important;
@@ -158,7 +158,7 @@
             display: none !important;
         }
         #aDropDown {
-            background: no-repeat url("https://i.imgur.com/SHqqJzc.png") center !important;
+            background: no-repeat url("https://i.imgur.com/asczAiI.jpg") center !important;
             background-color: #181818 !important;
             background-size: cover !important;
             border: none !important;
@@ -539,7 +539,9 @@
             visibility: visible !important;
         }
         iframe[src*="rapidvideo.com"] {
-            margin-left: 60px !important;
+			min-height: 594px !important;
+			min-width: 1000px !important;
+            margin-left: -12px !important;
         }
         .video-js.vjs-fullscreen {
             width: 100% !important;
@@ -647,13 +649,13 @@
             border-radius: 2px !important;
             box-shadow: 0 1px 1px rgba(0,0,0,0.3), 0 2px 2px rgba(0,0,0,0.3) !important;
             padding: 20px !important;
-            margin-top: 40px !important;
+            margin-top: 80px !important;
         }
         #divFileName #divBookmark {
             /*** BOOKMARK ***/
             position: fixed !important;
             right: -47px !important;
-            bottom: 140px !important;
+            bottom: 120px !important;
         }
         #divFileName #spanBookmarkManager img,
         #divFileName #spanBookmarkAdd img {
@@ -693,7 +695,7 @@
         }
         #switch {
             /*** LIGHTOFF ICON ***/
-            background: #1ABC9C !important;
+            background: #EEE657 !important;
             border-radius: 50% !important;
             color: transparent !important;
             height: 20px !important;
@@ -701,7 +703,7 @@
             padding: 0px !important;
             position: fixed !important;
             right: 38px !important;
-            bottom: 100px !important;
+            bottom: 90px !important;
             visibility: visible !important;
         }
         #switch img {
@@ -765,7 +767,7 @@
 }
 
 @-moz-document url("http://kissanime.ru/Profile") {
-        #leftside, 
+#leftside, 
         #rightside {
             margin-top: 0px !important;
         }
@@ -784,10 +786,10 @@
             text-transform: uppercase !important;
         }
 }
-@-moz-document url("http://kissanime.ru/UpcomingAnime/"),
-regexp("http://kissanime.ru/AnimeList\?.*"),
-regexp("http://kissanime.ru/(Search|AnimeList|Status|Genre)/(Anime|AdvanceSearch|NewAndHot|Newest|LatestUpdate|MostPopular|Ongoing)\?.*") {
-    #leftside .barContent div {
+
+@-moz-document url("http://kissanime.ru/UpcomingAnime/"), regexp("http://kissanime.ru/AnimeList\\?.*"), regexp("http://kissanime.ru/(Search|AnimeList|Status|Genre)/(Anime|AdvanceSearch|NewAndHot|Newest|LatestUpdate|MostPopular|Ongoing)\\?.*") {
+	#leftside .barContent div,
+	#containerRoot #container #leftside .bigBarContainer .barContent > div  {
         color: transparent !important;
     }
     a[href="/UpcomingAnime/"] {
