@@ -19,9 +19,9 @@
         iframe[id*="ads"],
         #divFloatLeft,
         #divFloatRight,
-        .divCloseBut,
         #divAds2, 
         #adsIfrme7,
+        .divCloseBut,
         a.videoAdClose {
             /*** ADS CONTAINER ***/
             display: none !important;
