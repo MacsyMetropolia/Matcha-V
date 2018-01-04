@@ -1,6 +1,6 @@
 # Matcha-V
 
-![screenshot](https://a.pomf.cat/gendpi.png)
+![screenshot](https://s1.gifyu.com/images/Screenshot-1232.png)
 Preview of Matcha-V.
 
 About
