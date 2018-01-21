@@ -1,6 +1,6 @@
 # Matcha-V
 
-![screenshot](https://s1.gifyu.com/images/Screenshot-1269.png
+![screenshot](https://s1.gifyu.com/images/Screenshot-1269.png)
 
 ![screenshot](https://s1.gifyu.com/images/Screenshot-1271.png)
 
