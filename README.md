@@ -1,6 +1,6 @@
 # Matcha-V
 
-![screenshot](https://s1.gifyu.com/images/Screenshot-1232.png)
+![screenshot](https://s1.gifyu.com/images/KissAnime_css.png)
 Preview of Matcha-V.
 
 About
