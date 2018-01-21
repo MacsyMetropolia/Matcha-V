@@ -11,8 +11,7 @@ About
 
 <i>Matcha-V</i> is a custom stylesheet for <i>Kissanime</i>.
 
-A custom stylesheet (or userstyles) is a script with a bunch of pseudo-code that will change the aspect of any website, it's kind like make-up I guess : you'll be able to change/modify the visual of the elements of the page (background, icon, buttons, etc...) and even delete some useless stuff.
-
+Userstyles are CSS code designed to alter the appearance of one, some, or all sites.
 
 Instruction
 -------------------------------
@@ -49,13 +48,7 @@ I use several fonts for my custom stylesheet.
 <li>You can share it, but don't forget to mention me.</li>
 </ol>
 
-Trivia
--------------------------------
-
-I decided to name the script <i>Matcha-V</i> because I drink a lot of tea and the green of the original layout of Kissanime made me think of Matcha, thus Matcha. The <i>V</i> comes from Vert, which means green in French, but I put this because it sounds cool to be honest, and to differenciate it with my previous kissanime script called <i>Matcha</i>.
-
-
 Report
 -------------------------------
 
-If you find some elements that weren't tweaked or that you simply want to modify or re-add an element that was removed, don't hesitate to report it in the comments.
+Don't hesitate to report any issues you find while using this userstyle.
