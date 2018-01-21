@@ -1,12 +1,15 @@
 # Matcha-V
 
-![screenshot](https://s1.gifyu.com/images/KissAnime_css.png)
-Preview of Matcha-V.
+![screenshot](https://s1.gifyu.com/images/Screenshot-1269.png
+
+![screenshot](https://s1.gifyu.com/images/Screenshot-1271.png)
+
+Preview of <i>Matcha-V</i>.
 
 About
 -------------------------------
 
-Matcha-V is a custom stylesheet for kissanime.
+<i>Matcha-V</i> is a custom stylesheet for <i>Kissanime</i>.
 
 A custom stylesheet (or userstyles) is a script with a bunch of pseudo-code that will change the aspect of any website, it's kind like make-up I guess : you'll be able to change/modify the visual of the elements of the page (background, icon, buttons, etc...) and even delete some useless stuff.
 
