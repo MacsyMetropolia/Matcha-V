@@ -1117,6 +1117,7 @@
 		text-shadow: none !important;
 		text-transform: uppercase !important;
 		margin-top: -40px !important;
+		margin-left: 25px !important;
 	}
 
 	#divComments {
@@ -1135,7 +1136,7 @@
 		border-radius: 2px !important;
 		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.3) !important;
 		padding: 40px 60px !important;
-		margin-left: -25px !important;
+		margin-left: -28px !important;
 	}
 
 	#divComments > div > div {
