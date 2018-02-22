@@ -99,10 +99,10 @@
     }
 
     #navsubbar p a {
-        font-size: 14pt !important;
+        font-size: 15pt !important;
         font-stretch: condensed !important;
         font-weight: normal !important;
-        margin-top: -4px !important;
+        margin-top: -3px !important;
     }
 
     #navsubbar p a:nth-of-type(1) {
@@ -134,7 +134,7 @@
 
         /*** SEARCHBAR ***/
         position: absolute !important;
-        top: 220px !important;
+        top: 216px !important;
         right: 30px !important;
         z-index: 999 !important;
     }
@@ -144,13 +144,16 @@
         border: none !important;
         border-radius: 2px !important;
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.3) !important;
+        font-size: 15pt !important;
+        font-stretch: condensed !important;
+        line-height: 30px !important;
         padding-left: 10px;
     }
 
     div[style="margin: 10px 48px 10px 0"] {
         width: 0px !important;
         padding: 0px !important;
-        margin-top: -33px !important;
+        margin-top: -37px !important;
         margin-left: 380px !important;
     }
 
@@ -174,9 +177,11 @@
     }
 
     #result_box a {
+        font-size: 14pt !important;
+        font-stretch: condensed !important;
+        font-weight: bold !important;
         padding: 10px 0px !important;
         position: static !important;
-        font-size: 12pt !important;
     }
 
     .dIa,
@@ -856,11 +861,14 @@
     #selectEpisode {
         background: #3B3F4C !important;
         border: none !important;
+        border-radius: 2px !important;
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.3) !important;
+        font-size: 15pt !important;
+        font-stretch: condensed !important;
         padding: 10px !important;
         width: 23% !important;
         position: absolute !important;
-        margin-top: -91px !important;
+        margin-top: -93px !important;
     }
 
     .video-js .vjs-tech {
@@ -935,11 +943,13 @@
     .vjs-duration-display {
 
         /*** TIME ***/
+        font-size: 9pt !important;
         font-weight: bold !important;
         margin-left: 14px !important;
     }
 
     .vjs-current-time-display {
+        font-size: 9pt !important;
         font-weight: bold !important;
     }
 
@@ -1192,8 +1202,4 @@
     #containerRoot #container #leftside .bigBarContainer .barContent > div {
         color: transparent !important;
     }
-}
-
-@-moz-document domain("kissanime.ru") {
-
 }
