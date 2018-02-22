@@ -1,6 +1,5 @@
 @-moz-document domain("kissanime.ru") {
-
-    /* GENERAL */
+/* GENERAL */
 
     /** DESCRIPTION : set main font and background, plus remove some elements **/
     * {
@@ -819,12 +818,7 @@
     /* VIDEO */
 
     /** DESCRIPTION : tweak the elements in the video page **/
-    .barContent[style="line-height: 23px; padding-top: 20px"] .clear, .barContent[style="line-height: 23px; padding-top: 20px"] .clear2, div[style*="border-color: #4e4e4e !important;
-    position: relative;
-    margin: 0 0 20px 0;
-
-    "],
-    w
+    .barContent[style="line-height: 23px; padding-top: 20px"] .clear, .barContent[style="line-height: 23px; padding-top: 20px"] .clear2, div[style*="border-color: #4e4e4e !important; position: relative; margin: 0 0 20px 0;"],
     div[style="font-size: 14px; font-weight: bold"],
     .clsTempMSg {
 
@@ -1168,11 +1162,10 @@
     div[style="font-size:11px;position:absolute; right:5px; top: 0px"] {
         display: none !important;
     }
-
 }
 
 @-moz-document url("http://kissanime.ru/Profile") {
-    #leftside,
+#leftside,
     #rightside {
         margin-top: 0px !important;
     }
@@ -1192,16 +1185,15 @@
         padding: 9px 3px !important;
         text-transform: uppercase !important;
     }
-
 }
 
-@-moz-document url("http://kissanime.ru/Search/Anime"),
-url("http://kissanime.ru/AnimeList"),
-regexp("http://kissanime.ru/(Search|AnimeList|Status|Genre)/(Anime|AdvanceSearch|NewAndHot|Newest|LatestUpdate|MostPopular|Ongoing)\\?*") {
-    #leftside .barContent > div,
+@-moz-document url("http://kissanime.ru/Search/Anime"), url("http://kissanime.ru/AnimeList"), regexp("http://kissanime.ru/(Search|AnimeList|Status|Genre)/(Anime|AdvanceSearch|NewAndHot|Newest|LatestUpdate|MostPopular|Ongoing)\\?*") {
+#leftside .barContent > div,
     #containerRoot #container #leftside .bigBarContainer .barContent > div {
         color: transparent !important;
     }
-
 }
 
+@-moz-document domain("kissanime.ru") {
+
+}
