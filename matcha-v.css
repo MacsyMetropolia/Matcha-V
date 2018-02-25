@@ -629,6 +629,10 @@
         color: #2CC990 !important;
     }
 
+    .listing th {
+    	font-stretch: condensed !important;    
+	}
+    
     .tooltip {
         background: #212121 !important;
         border-radius: 2px;
