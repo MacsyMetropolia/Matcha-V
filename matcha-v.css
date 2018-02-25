@@ -723,6 +723,7 @@
     #leftside .bigChar {
         color: #FFF !important;
         font-size: 14pt !important;
+        font-stretch: condensed;
         font-weight: bold !important;
         letter-spacing: -.5px !important;
     }
