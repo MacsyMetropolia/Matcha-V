@@ -102,7 +102,7 @@
         font-size: 15pt !important;
         font-stretch: condensed !important;
         font-weight: normal !important;
-        margin-top: -3px !important;
+        margin-top: -4px !important;
     }
 
     #navsubbar p a:nth-of-type(1) {
@@ -112,22 +112,22 @@
 
     #navsubbar p a:nth-of-type(2) {
         position: absolute !important;
-        left: 156px !important;
+        left: 165px !important;
     }
 
     #navsubbar p a:nth-of-type(3) {
         position: absolute !important;
-        left: 306px !important;
+        left: 325px !important;
     }
 
     #navsubbar p a:nth-of-type(4) {
         position: absolute !important;
-        left: 426px !important;
+        left: 450px !important;
     }
 
     #navsubbar p a:nth-of-type(5) {
         position: absolute !important;
-        left: 525px !important;
+        left: 530px !important;
     }
 
     #search {
