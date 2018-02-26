@@ -1,8 +1,6 @@
 # Matcha-V
 
-![screenshot](https://s1.gifyu.com/images/Screenshot-1315.png)
-
-![screenshot](https://s1.gifyu.com/images/Screenshot-1317.png)
+<img src="preview_matcha-v.png" width="100%">
 
 Preview of <i>Matcha-V</i>.
 
