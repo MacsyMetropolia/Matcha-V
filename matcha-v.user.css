@@ -155,6 +155,10 @@
 		font-stretch: condensed !important;
 		font-weight: normal !important;
 		margin-top: -4px !important;
+		max-width: 30% !important;
+		overflow: hidden !important;
+		text-overflow: ellipsis !important;
+		white-space: nowrap !important;
 	}
 
 	#navsubbar p a:nth-of-type(1) {
@@ -350,7 +354,7 @@
 		font-size: 18pt !important;
 		font-stretch: condensed;
 		font-weight: normal !important;
-		letter-spacing: -.5px !important;
+		letter-spacing: 0px !important;
 		text-shadow: none !important;
 	}
 
@@ -413,15 +417,15 @@
 	#leftside .banner #btnReloadRandom img {
 		background: no-repeat url("https://i.imgur.com/2n3rpjO.png") center !important;
 		background-size: 50% auto !important;
-        border: none !important;
+        	border: none !important;
 		box-shadow: none !important;
 		height: 0px !important;
 		width: 0px !important;
 		padding: 30px 0px 0px 70px !important;
 		margin-top: 85px !important;
 		margin-left: 24px !important;
-        filter: brightness(0) var(--invert) !important;
-        opacity: .5;
+		filter: brightness(0) var(--invert) !important;
+		opacity: .5;
 	}
 
 	#leftside .banner #btnReloadRandomMain img {
@@ -482,11 +486,11 @@
 	}
 
 	.barTitle .scrollable_title {
-        color: var(--primary-color);
+        	color: var(--primary-color);
 		font-size: 18pt !important;
 		font-stretch: condensed !important;
 		font-weight: normal !important;
-		letter-spacing: -.5px !important;
+		letter-spacing: 0px !important;
 		text-shadow: none !important;
 	}
 
@@ -655,11 +659,11 @@
 	}
 
 	#rightside .rightBox .barTitle {
-        color: var(--primary-color);
+       	 	color: var(--primary-color);
 		font-size: 18pt !important;
 		font-stretch: condensed !important;
 		font-weight: normal !important;
-		letter-spacing: -.5px !important;
+		letter-spacing: 0px !important;
 	}
 
 	div[style="margin-top: -5px; font-weight:bold;"] {
@@ -701,11 +705,11 @@
 	}
 
 	#leftside .barTitle {
-        color: var(--primary-color);
+        	color: var(--primary-color);
 		font-size: 18pt;
 		font-stretch: condensed !important;
 		font-weight: normal !important;
-		letter-spacing: -.5px !important;
+		letter-spacing: 0px !important;
 	}
 
 	.listing .head {
@@ -714,7 +718,7 @@
 
 	.listing td {
 		background: var(--card-bg) !important;
-        color: var(--primary-color);
+        	color: var(--primary-color);
 		z-index: 9999 !important;
 	}
 
@@ -746,7 +750,7 @@
 		font-size: 18pt !important;
 		font-stretch: condensed !important;
 		font-weight: normal !important;
-		letter-spacing: -.5px !important;
+		letter-spacing: 0px !important;
 		margin-left: 10px;
 	}
 
@@ -855,7 +859,7 @@
 		color: var(--primary-color) !important;
 		font-size: 17pt !important;
 		font-stretch: condensed;
-		letter-spacing: -.5px !important;
+		letter-spacing: 0px !important;
 	}
 
 	#leftside .bigBarContainer .listing {
@@ -1120,7 +1124,7 @@
 		/*** NEXT BUTTON ***/
 		border: 3px solid transparent !important;
 		box-shadow: none !important;
-		filter: brightness(0) invert(1) !important;
+		filter: brightness(0) var(--invert) !important;
 		height: 22px !important;
 		opacity: .3 !important;
 		padding: 5px !important;
@@ -1136,7 +1140,7 @@
 		/*** PREVIOUS BUTTON ***/
 		border: 3px solid transparent !important;
 		box-shadow: none !important;
-		filter: brightness(0) invert(1) !important;
+		filter: brightness(0) var(--invert) !important;
 		height: 22px !important;
 		opacity: .3 !important;
 		padding: 5px !important;
@@ -1295,8 +1299,8 @@
 
 	/** DESCRIPTION : change the elements in the Bookmark page **/
 	#divListCategories {
-        font-size: 14pt !important;
-        font-weight: normal !important;
+        	font-size: 14pt !important;
+        	font-weight: normal !important;
 		margin-bottom: 30px !important;
 		margin-top: -30px !important;
 	}
