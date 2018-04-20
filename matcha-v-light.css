@@ -1,5 +1,19 @@
 @-moz-document domain("kissanime.ru") {
-/* GENERAL */
+
+	/* COLORS */
+
+	/** DESCRIPTION : set the colors **/
+	:root {
+        		--body-bg: #F9F8F8 !important;
+		--card-bg: #F0F1F5 !important;
+		--border-color: #BEBEBE !important;
+		--link-color: #546A7B !important;
+		--primary-color: #212121 !important;
+		--secondary-color: #7E7E7E !important;
+		--invert: invert(0) !important;
+	}
+
+	/* GENERAL */
 
 	/** DESCRIPTION : set main font and background, plus remove some elements **/
 	* {
@@ -10,9 +24,19 @@
 		border: 0;
 	}
 
+	a {
+		color: #009949;
+	}
+
+	#result_box a span,
+	span[style="font-weight: bold; color: #d5f406"] {
+		color: #009949 !important;
+		font-weight: normal !important;
+	}
+
 	body,
 	body > #containerRoot {
-		background: #212121 !important;
+		background: var(--body-bg) !important;
 		overflow-x: hidden !important;
 	}
 
@@ -33,7 +57,14 @@
 		white-space: nowrap;
 	}
 
+	#formVerify * {
+
+		/*** VERIFY BOX ***/
+		font-size: 14pt !important;
+	}
+
 	iframe[id*="ads"],
+	div[style="text-align: center;"] > div[style="display: inline-table;"],
 	#divFloatLeft,
 	#divFloatRight,
 	.divCloseBut,
@@ -55,7 +86,7 @@
 
 	/** DESCRIPTION : change the elements of the header/upper part **/
 	#head h1 {
-		background: no-repeat url('https://i.imgur.com/S2Bbuvz.jpg') center !important;
+		background: no-repeat url('https://i.imgur.com/3IVM7E4.jpg') center !important;
 		background-size: cover !important;
 		border-top: 10px solid #1ABC9C !important;
 		border-bottom: 65px solid #005057 !important;
@@ -67,7 +98,8 @@
 	}
 
 	#head h1 a.logo {
-		background: url("https://i.imgur.com/jnt6rO6.png") no-repeat scroll !important;
+		background: url("https://i.imgur.com/jrwZ19c.png") no-repeat scroll !important;
+		background-size: auto 100% !important;
 		width: 80% !important;
 		padding-bottom: 10px !important;
 		margin-top: 25px !important;
@@ -143,7 +175,7 @@
 		background: #313B4B !important;
 		border: none !important;
 		border-radius: 2px !important;
-		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.3) !important;
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, .2) !important;
 		font-size: 15pt !important;
 		font-stretch: condensed !important;
 		line-height: 30px !important;
@@ -166,9 +198,9 @@
 	}
 
 	#result_box {
-		background-color: #161616 !important;
-		border-radius: 0px !important;
-		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3) !important;
+		background-color: var(--body-bg) !important;
+		border-radius: 2px !important;
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, .3) !important;
 		opacity: 1;
 		padding: 10px 20px !important;
 		width: 88.7% !important;
@@ -177,11 +209,15 @@
 	}
 
 	#result_box a {
+		color: var(--primary-color);
 		font-size: 14pt !important;
 		font-stretch: condensed !important;
-		font-weight: bold !important;
 		padding: 10px 0px !important;
 		position: static !important;
+	}
+
+	#result_box a:hover {
+		background: transparent;
 	}
 
 	.dIa,
@@ -233,7 +269,7 @@
 		background: #025159 !important;
 		border: none !important;
 		border-radius: 2px !important;
-		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.3) !important;
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, .2) !important;
 		position: absolute !important;
 		top: -25px !important;
 		margin-left: -390px !important;
@@ -279,18 +315,18 @@
 	#leftside .banner {
 
 		/*** RANDOM BOX ***/
-		background: #374047 !important;
+		background: var(--card-bg) !important;
 		border: none !important;
 		border-radius: 2px !important;
-		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.3) !important;
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, .2) !important;
 		padding: 10px !important;
-		min-height: 250px !important;
-		max-height: 250px !important;
+		min-height: 300px !important;
+		max-height: 300px !important;
 		margin-bottom: 15px !important;
 	}
 
 	#leftside .banner .bigChar {
-		color: #FFF !important;
+		color: var(--primary-color) !important;
 		font-size: 18pt !important;
 		font-stretch: condensed;
 		font-weight: normal !important;
@@ -299,7 +335,7 @@
 	}
 
 	.info {
-		color: #EBEBEB !important;
+		color: var(--secondary-color) !important;
 		font-size: 14pt !important;
 		font-stretch: condensed !important;
 		text-transform: lowercase !important;
@@ -309,10 +345,12 @@
 		background: #71BA51 !important;
 		border: none !important;
 		border-radius: 2px !important;
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, .1) !important;
 		color: #FFF !important;
 		font-size: 14pt !important;
 		font-stretch: condensed !important;
 		font-weight: normal !important;
+		line-height: 31pt !important;
 		padding: 5px 10px 6px 10px !important;
 		margin-left: 5px;
 		margin-right: -7px;
@@ -346,6 +384,7 @@
 	}
 
 	.banner p {
+		color: var(--secondary-color);
 		font-size: 14pt !important;
 		font-stretch: condensed;
 		line-height: 18pt !important;
@@ -354,36 +393,64 @@
 	#leftside .banner #btnReloadRandom img {
 		background: no-repeat url("https://i.imgur.com/2n3rpjO.png") center !important;
 		background-size: 50% auto !important;
+		border: none !important;
 		box-shadow: none !important;
 		height: 0px !important;
 		width: 0px !important;
-		padding: 30px 0px 0px 70px;
-		margin-top: 38px !important;
+		padding: 30px 0px 0px 70px !important;
+		margin-top: 85px !important;
 		margin-left: 24px !important;
+		filter: brightness(0) var(--invert) !important;
+		opacity: .5;
 	}
 
 	#leftside .banner #btnReloadRandomMain img {
 		background: no-repeat url("https://i.imgur.com/2n3rpjO.png") center !important;
 		background-size: 50% auto !important;
+		border: none !important;
 		box-shadow: none !important;
 		height: 0px !important;
 		width: 0px !important;
-		padding: 30px 0px 0px 70px;
+		padding: 30px 0px 0px 70px !important;
+		margin-top: -3px;
 		margin-left: 12px !important;
+		filter: brightness(0) var(--invert) !important;
+		opacity: .6;
 	}
 
 	#divShowGenre {
-		top: 215px !important;
+		top: 260px !important;
 		left: 540px !important;
+	}
+
+	#divShowGenre select {
+		background: var(--body-bg);
+		border: none !important;
+		border-radius: 2px !important;
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, .1) !important;
+		color: var(--primary-color);
+		font-size: 14pt !important;
+		font-stretch: condensed;
+		margin-left: 30px;
+		margin-right: -30px;
+	}
+
+	.details a img,
+	div[style="text-align: center"] img,
+	.scrollable .items a img,
+	#subcontent div a img,
+	.tooltip img {
+		border: 1px solid var(--border-color) !important;
+		padding: 0px !important;
 	}
 
 	#leftside .bigBarContainer {
 
 		/*** LATEST UPDATE BOX ***/
-		background: #374047 !important;
+		background: var(--card-bg) !important;
 		border: none !important;
 		border-radius: 2px !important;
-		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.3) !important;
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, .2) !important;
 		padding: 10px !important;
 	}
 
@@ -395,6 +462,7 @@
 	}
 
 	.barTitle .scrollable_title {
+		color: var(--primary-color);
 		font-size: 18pt !important;
 		font-stretch: condensed !important;
 		font-weight: normal !important;
@@ -407,6 +475,8 @@
 		background-size: 30px auto !important;
 		background-position: center center !important;
 		margin-top: 5px !important;
+		filter: brightness(0) var(--invert) !important;
+		opacity: .5;
 	}
 
 	a.next {
@@ -415,6 +485,8 @@
 		background-position: center center !important;
 		margin-top: 5px !important;
 		margin-left: -8px !important;
+		filter: brightness(0) var(--invert) !important;
+		opacity: .5;
 	}
 
 	.navi {
@@ -429,6 +501,7 @@
 
 	.barContent {
 		background: transparent !important;
+		color: var(--primary-color);
 		font-size: 14pt !important;
 		font-stretch: condensed !important;
 		line-height: 20pt !important;
@@ -439,7 +512,7 @@
 	}
 
 	.scrollable .items a {
-		color: #A9D3AA !important;
+		color: #009949 !important;
 		font-size: 14pt !important;
 		font-stretch: condensed !important;
 		font-weight: normal !important;
@@ -463,6 +536,7 @@
 
 	#tabmenucontainer li a {
 		background: #174C4F !important;
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, .1) !important;
 		font-size: 14pt !important;
 		font-stretch: condensed !important;
 		font-weight: bold !important;
@@ -473,25 +547,26 @@
 	}
 
 	#tabmenucontainer li a.tabactive {
-		background: #374047 !important;
+		background: var(--card-bg) !important;
+		color: var(--secondary-color);
 	}
 
 	#leftside #subcontent {
-		background: #374047 !important;
+		background: var(--card-bg) !important;
 		border: none !important;
-		border-radius: 2px !important;
-		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.3) !important;
+		border-radius: 2px;
+		border-top-left-radius: 1px !important;
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, .2) !important;
 		padding: 10px !important;
 	}
 
 	#subcontent div div {
-		background: #374047 !important;
+		background: var(--card-bg) !important;
 	}
 
 	#subcontent div div a,
 	#subcontent div div a span {
-		color: #A9D3AA;
-		font-weight: bold !important;
+		color: #009949;
 	}
 
 	#subcontent p a {
@@ -500,7 +575,7 @@
 	}
 
 	#subcontent span.title {
-		color: #FFF !important;
+		color: var(--primary-color) !important;
 		font-size: 17pt !important;
 		font-stretch: condensed !important;
 		font-weight: normal !important;
@@ -551,15 +626,16 @@
 	#rightside .rightBox {
 
 		/*** RIGHT SIDE BOXES ***/
-		background: #374047 !important;
+		background: var(--card-bg) !important;
 		border: none !important;
 		border-radius: 2px !important;
-		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.3) !important;
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, .2) !important;
 		padding: 10px !important;
 		margin-bottom: 12px !important;
 	}
 
 	#rightside .rightBox .barTitle {
+		color: var(--primary-color);
 		font-size: 18pt !important;
 		font-stretch: condensed !important;
 		font-weight: normal !important;
@@ -579,7 +655,7 @@
 
 	#rightside .rightBox .barContent a,
 	#rightside .rightBox .barContent a b {
-		color: #B5DD6F;
+		color: var(--link-color);
 		font-size: 14pt !important;
 		font-stretch: condensed !important;
 		font-style: italic;
@@ -592,7 +668,7 @@
 		height: 0px !important;
 		width: 0px !important;
 		padding: 15px 0px 0px 15px !important;
-		filter: brightness(0) invert(1) !important;
+		filter: brightness(0) var(--invert) !important;
 		margin-top: 5px !important;
 		margin-right: 3px !important;
 	}
@@ -605,6 +681,7 @@
 	}
 
 	#leftside .barTitle {
+		color: var(--primary-color);
 		font-size: 18pt;
 		font-stretch: condensed !important;
 		font-weight: normal !important;
@@ -616,13 +693,13 @@
 	}
 
 	.listing td {
-		background: #374047 !important;
-		font-weight: bold !important;
+		background: var(--card-bg) !important;
+		color: var(--primary-color);
 		z-index: 9999 !important;
 	}
 
 	.listing td a {
-		color: #FFF;
+		color: var(--primary-color);
 		font-style: italic;
 		font-weight: normal !important;
 	}
@@ -633,13 +710,16 @@
 	}
 
 	.listing th {
+		color: var(--primary-color);
 		font-stretch: condensed !important;
+		font-weight: normal;
 	}
 
 	.tooltip {
-		background: #212121 !important;
+		background: var(--body-bg) !important;
 		border-radius: 2px;
-		padding: 30px 30px 25px 30px !important;
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, .1) !important;
+		padding: 30px 30px 50px 30px !important;
 	}
 
 	.tooltip a {
@@ -651,9 +731,17 @@
 	}
 
 	.tooltip p {
-		font-size: 11pt !important;
+		color: var(--secondary-color);
+		font-size: 14pt !important;
+		font-stretch: condensed;
 		line-height: 18pt !important;
 		padding-left: 10px;
+	}
+
+	#formProfile span[style="font-size: 15px; font-weight: bold"],
+	.barContent span[style="font-size: 15px; font-weight: bold"] {
+		font-size: 15pt !important;
+		font-weight: normal !important;
 	}
 
 	#animeName,
@@ -662,9 +750,13 @@
 	#username,
 	#email,
 	#retypePassword {
-		background: #212121 !important;
+		background: var(--body-bg) !important;
 		border: none !important;
 		border-radius: 2px !important;
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, .1) !important;
+		color: var(--primary-color) !important;
+		font-size: 14pt !important;
+		font-stretch: condensed !important;
 		padding: 5px 6px !important;
 	}
 
@@ -706,15 +798,16 @@
 	div.pagination ul.pager li {
 		background: transparent !important;
 		border: none !important;
-		color: #FFF !important;
+		color: var(--primary-color) !important;
 		font-weight: bold !important;
 	}
 
 	div.pagination ul.pager li,
 	div.pagination ul.pager li a {
-		color: #FFF !important;
+		color: var(--primary-color) !important;
 		font-size: 14pt !important;
 		font-stretch: condensed;
+		font-weight: normal;
 	}
 
 	div.pagination ul.pager li a:hover {
@@ -728,10 +821,9 @@
 
 	/** DESCRIPTION : change the elements of the anime details page **/
 	#leftside .bigChar {
-		color: #FFF !important;
+		color: var(--primary-color) !important;
 		font-size: 17pt !important;
 		font-stretch: condensed;
-		font-weight: bold !important;
 		letter-spacing: -.5px !important;
 	}
 
@@ -790,22 +882,24 @@
 	}
 
 	#container[style="text-align: left"] .bigBarContainer {
-		background: #374047 !important;
+		background: var(--card-bg) !important;
 		border: none !important;
 		border-radius: 2px !important;
-		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.3) !important;
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, .2) !important;
 		padding: 10px !important;
 	}
 
 	#container[style="text-align: left"] .bigBarContainer .barTitle {
+		color: var(--primary-color);
 		font-size: 18pt !important;
 		font-stretch: condensed !important;
 		font-weight: normal !important;
+		letter-spacing: 0px !important;
 		margin-left: 1px !important;
 	}
 
 	#container[style="text-align: left"] .bigBarContainer .title {
-		color: #A9D3AA;
+		color: #009949;
 		font-size: 18pt !important;
 		font-stretch: condensed !important;
 		font-weight: normal !important;
@@ -815,8 +909,9 @@
 		background: #71BA51 !important;
 		border: none !important;
 		border-radius: 2px !important;
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, .1) !important;
 		color: #FFF !important;
-		font-size: 12pt !important;
+		font-size: 14pt !important;
 		font-stretch: condensed !important;
 		font-weight: normal !important;
 		padding: 5px 10px 6px 10px !important;
@@ -831,8 +926,7 @@
 	/* VIDEO */
 
 	/** DESCRIPTION : tweak the elements in the video page **/
-	.barContent[style="line-height: 23px; padding-top: 20px"] .clear, .barContent[style="line-height: 23px; padding-top: 20px"] .clear2, 
-	div[style*="border-color: #4e4e4e !important; position: relative; margin: 0 0 20px 0;"],
+	.barContent[style="line-height: 23px; padding-top: 20px"] .clear, .barContent[style="line-height: 23px; padding-top: 20px"] .clear2, div[style*="border-color: #4e4e4e !important; position: relative; margin: 0 0 20px 0;"],
 	div[style="font-size: 14px; font-weight: bold"],
 	.clsTempMSg {
 
@@ -871,7 +965,7 @@
 		background: #3B3F4C !important;
 		border: none !important;
 		border-radius: 2px !important;
-		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.3) !important;
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, .2) !important;
 		font-size: 15pt !important;
 		font-stretch: condensed !important;
 		padding: 10px !important;
@@ -883,7 +977,7 @@
 	.video-js .vjs-tech {
 
 		/*** VIDEO ***/
-		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.3) !important;
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, .2) !important;
 		width: auto !important;
 		position: absolute;
 		visibility: visible !important;
@@ -892,7 +986,7 @@
 	iframe[src*="rapidvideo.com"] {
 		min-height: 694px !important;
 		min-width: 1100px !important;
-		margin-left: -68px !important;
+		margin-left: -72px !important;
 	}
 
 	.video-js.vjs-fullscreen {
@@ -905,7 +999,7 @@
 	}
 
 	.video-js.vjs-fullscreen > #my_video_1_html5_api.vjs-tech {
-		background-color: #212121 !important;
+		background-color: var(--card-bg) !important;
 		width: 100% !important;
 	}
 
@@ -1029,16 +1123,17 @@
 	#divDownload {
 
 		/*** DOWNLOAD ***/
-		background: #374047 !important;
+		background: var(--card-bg) !important;
 		border-radius: 2px !important;
-		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.3) !important;
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, .2) !important;
+		font-size: 14pt !important;
 		padding: 20px !important;
 		margin-top: 190px !important;
 	}
 
 	#divDownload a {
-		color: #EBEBEB !important;
-		font-size: 12pt !important;
+		color: var(--secondary-color) !important;
+		font-size: 14pt !important;
 		font-stretch: condensed !important;
 	}
 
@@ -1079,7 +1174,7 @@
 		position: fixed !important;
 		right: 36px !important;
 		bottom: 90px !important;
-		visibility: visible !important;
+		visibility: hidden !important;
 	}
 
 	#switch img {
@@ -1122,8 +1217,8 @@
 		background: #0F595E !important;
 		border: none !important;
 		border-radius: 2px !important;
-		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.3) !important;
-		font-size: 12pt !important;
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, .2) !important;
+		font-size: 14pt !important;
 		font-stretch: condensed !important;
 		padding: 0px 10px !important;
 		text-shadow: none !important;
@@ -1144,9 +1239,9 @@
 	}
 
 	#divComments div[style="width: 780px; display: inline-block"] {
-		background: #333 !important;
+		background: var(--card-bg) !important;
 		border-radius: 2px !important;
-		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.3) !important;
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, .2) !important;
 		padding: 40px 60px !important;
 		margin-left: -28px !important;
 	}
@@ -1167,20 +1262,27 @@
 
 	/** DESCRIPTION : change the elements in the Bookmark page **/
 	#divListCategories {
+		font-size: 14pt !important;
+		font-weight: normal !important;
 		margin-bottom: 30px !important;
 		margin-top: -30px !important;
 	}
 
 	#selectListCategories {
-		background: #212121 !important;
+		background: var(--body-bg) !important;
 		border: none !important;
 		border-radius: 2px !important;
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, .1);
+		color: var(--primary-color);
+		font-size: 14pt;
+		font-stretch: condensed;
 		padding: 5px 6px !important;
 	}
 
 	div[style="font-size:11px;position:absolute; right:5px; top: 0px"] {
 		display: none !important;
 	}
+
 }
 
 @-moz-document url("http://kissanime.ru/Profile") {
@@ -1189,10 +1291,18 @@
 		margin-top: 0px !important;
 	}
 
+	#head h1 {
+		border-bottom: 69px solid #005057 !important;
+	}
+
 	.txtSignUp {
-		background: #212121 !important;
+		background: var(--body-bg) !important;
 		border: none !important;
 		border-radius: 2px !important;
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, .1) !important;
+		color: var(--primary-color) !important;
+		font-size: 14pt !important;
+		font-stretch: condensed !important;
 		padding: 5px 10px !important;
 	}
 
@@ -1200,15 +1310,24 @@
 		background: #1BB568;
 		border: none !important;
 		border-radius: 2px !important;
-		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.3) !important;
-		padding: 9px 3px !important;
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, .2) !important;
+		padding: 4px !important;
 		text-transform: uppercase !important;
 	}
+
 }
 
-@-moz-document url("http://kissanime.ru/Search/Anime"), url("http://kissanime.ru/AnimeList"), regexp("http://kissanime.ru/(Search|AnimeList|Status|Genre)/(Anime|AdvanceSearch|NewAndHot|Newest|LatestUpdate|MostPopular|Ongoing)\\?*"), regexp("http://kissanime.ru/Genre/.*") {
-#leftside .barContent > div,
+@-moz-document url("http://kissanime.ru/Search/Anime"),
+url("http://kissanime.ru/AnimeList"),
+regexp("http://kissanime.ru/(Search|AnimeList|Status|Genre)/(Anime|AdvanceSearch|NewAndHot|Newest|LatestUpdate|MostPopular|Ongoing)\\?*"),regexp("http://kissanime.ru/Genre/.*") {
+	#leftside .barContent > div,
 	#containerRoot #container #leftside .bigBarContainer .barContent > div {
 		color: transparent !important;
 	}
+
+	#head h1 {
+		border-bottom: 69px solid #005057 !important;
+	}
+
 }
+
