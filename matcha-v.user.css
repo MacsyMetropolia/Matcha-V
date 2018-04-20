@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Matcha-V
 @namespace      https://github.com/Catgrills/Matcha-V
-@version        1.0.1
+@version        1.0.2
 @description    An userstyle for KissAnime called Matcha-V
 @author         Catgrills/Katgrills
 @preprocessor 	uso
@@ -44,15 +44,15 @@
 		border: 0;
 	}
     
-    a {
-        color: #009949;
-    }
-    
-    #result_box a span,
-    span[style="font-weight: bold; color: #d5f406"] {
-        color: #009949 !important;
-        font-weight: normal !important;
-    }
+	a {
+		color: #009949;
+	}
+
+	#result_box a span,
+	span[style="font-weight: bold; color: #d5f406"] {
+		color: #009949 !important;
+		font-weight: normal !important;
+	}
 
 	body,
 	body > #containerRoot {
@@ -84,7 +84,7 @@
 	}
 
 	iframe[id*="ads"],
-    div[style="text-align: center;"] > div[style="display: inline-table;"],
+        div[style="text-align: center;"] > div[style="display: inline-table;"],
 	#divFloatLeft,
 	#divFloatRight,
 	.divCloseBut,
@@ -236,9 +236,9 @@
 		position: static !important;
 	}
 
-    #result_box a:hover {
-        background: transparent;
-    }
+        #result_box a:hover {
+        	background: transparent;
+        }
     
 	.dIa,
 	.bp,
@@ -427,15 +427,15 @@
 	#leftside .banner #btnReloadRandomMain img {
 		background: no-repeat url("https://i.imgur.com/2n3rpjO.png") center !important;
 		background-size: 50% auto !important;
-        border: none !important;
+        	border: none !important;
 		box-shadow: none !important;
 		height: 0px !important;
 		width: 0px !important;
 		padding: 30px 0px 0px 70px !important;
-        margin-top: -3px;
+                margin-top: -3px;
 		margin-left: 12px !important;
-        filter: brightness(0) var(--invert) !important;
-        opacity: .6;
+		filter: brightness(0) var(--invert) !important;
+		opacity: .6;
 	}
 
 	#divShowGenre {
@@ -443,27 +443,27 @@
 		left: 540px !important;
 	}
 
-    #divShowGenre select {
-        background: var(--body-bg);
-        border: none !important;
+        #divShowGenre select {
+		background: var(--body-bg);
+		border: none !important;
 		border-radius: 2px !important;
 		box-shadow: 0px 1px 2px rgba(0,0,0,.1) !important;
-        color: var(--primary-color);
-        font-size: 14pt !important;
-        font-stretch: condensed;
-        margin-left: 30px;
-        margin-right: -30px;
-    }
+		color: var(--primary-color);
+		font-size: 14pt !important;
+		font-stretch: condensed;
+		margin-left: 30px;
+		margin-right: -30px;
+        }
     
-    .details a img,
-    div[style="text-align: center"] img,
-    .scrollable .items a img,
-    #subcontent div a img,
-    .tooltip img {
-        border: 1px solid var(--border-color) !important;
-        padding: 0px !important;
-    }
-    
+	.details a img,
+	div[style="text-align: center"] img,
+	.scrollable .items a img,
+	#subcontent div a img,
+	.tooltip img {
+		border: 1px solid var(--border-color) !important;
+		padding: 0px !important;
+	}
+
 	#leftside .bigBarContainer {
 
 		/*** LATEST UPDATE BOX ***/
@@ -495,8 +495,8 @@
 		background-size: 30px auto !important;
 		background-position: center center !important;
 		margin-top: 5px !important;
-        filter: brightness(0) var(--invert) !important;
-        opacity: .5;
+        	filter: brightness(0) var(--invert) !important;
+        	opacity: .5;
 	}
 
 	a.next {
@@ -505,8 +505,8 @@
 		background-position: center center !important;
 		margin-top: 5px !important;
 		margin-left: -8px !important;
-        filter: brightness(0) var(--invert) !important;
-        opacity: .5;
+        	filter: brightness(0) var(--invert) !important;
+        	opacity: .5;
 	}
 
 	.navi {
@@ -521,7 +521,7 @@
 
 	.barContent {
 		background: transparent !important;
-        color: var(--primary-color);
+        	color: var(--primary-color);
 		font-size: 14pt !important;
 		font-stretch: condensed !important;
 		line-height: 20pt !important;
@@ -568,14 +568,14 @@
 
 	#tabmenucontainer li a.tabactive {
 		background: var(--card-bg) !important;
-        color: var(--secondary-color);
+        	color: var(--secondary-color);
 	}
 
 	#leftside #subcontent {
 		background: var(--card-bg) !important;
 		border: none !important;
 		border-radius: 2px;
-        border-top-left-radius: 1px !important;
+        	border-top-left-radius: 1px !important;
 		box-shadow: 0px 1px 2px rgba(0,0,0,.2) !important;
 		padding: 10px !important;
 	}
@@ -730,15 +730,15 @@
 	}
 
 	.listing th {
-        color: var(--primary-color);
+        	color: var(--primary-color);
 		font-stretch: condensed !important;
-        font-weight: normal;
+        	font-weight: normal;
 	}
 
 	.tooltip {
 		background: var(--body-bg) !important;
 		border-radius: 2px;
-        box-shadow: 0px 1px 2px rgba(0,0,0,.1) !important;
+        	box-shadow: 0px 1px 2px rgba(0,0,0,.1) !important;
 		padding: 30px 30px 50px 30px !important;
 	}
 
@@ -751,19 +751,19 @@
 	}
 
 	.tooltip p {
-        color: var(--secondary-color);
+        	color: var(--secondary-color);
 		font-size: 14pt !important;
-        font-stretch: condensed;
+        	font-stretch: condensed;
 		line-height: 18pt !important;
 		padding-left: 10px;
 	}
 
-    #formProfile span[style="font-size: 15px; font-weight: bold"],
-    .barContent span[style="font-size: 15px; font-weight: bold"] {
-        font-size: 15pt !important;
-        font-weight: normal !important;
-    }
-    
+	#formProfile span[style="font-size: 15px; font-weight: bold"],
+	.barContent span[style="font-size: 15px; font-weight: bold"] {
+		font-size: 15pt !important;
+		font-weight: normal !important;
+	}
+
 	#animeName,
 	#status,
 	#password,
@@ -838,7 +838,7 @@
 		color: var(--primary-color)  !important;
 		font-size: 14pt !important;
 		font-stretch: condensed;
-        font-weight: normal;
+        	font-weight: normal;
 	}
 
 	div.pagination ul.pager li a:hover {
@@ -921,11 +921,11 @@
 	}
 
 	#container[style="text-align: left"] .bigBarContainer .barTitle {
-        color: var(--primary-color);
+        	color: var(--primary-color);
 		font-size: 18pt !important;
 		font-stretch: condensed !important;
 		font-weight: normal !important;
-        letter-spacing: 0px !important;
+        	letter-spacing: 0px !important;
 		margin-left: 1px !important;
 	}
 
@@ -940,7 +940,7 @@
 		background: #71BA51 !important;
 		border: none !important;
 		border-radius: 2px !important;
-        box-shadow: 0px 1px 2px rgba(0,0,0,.1) !important;
+        	box-shadow: 0px 1px 2px rgba(0,0,0,.1) !important;
 		color: #FFF !important;
 		font-size: 14pt !important;
 		font-stretch: condensed !important;
@@ -1305,10 +1305,10 @@
 		background: var(--body-bg) !important;
 		border: none !important;
 		border-radius: 2px !important;
-        box-shadow: 0px 1px 2px rgba(0,0,0,.1);
-        color: var(--primary-color);
-        font-size: 14pt;
-        font-stretch: condensed;
+		box-shadow: 0px 1px 2px rgba(0,0,0,.1);
+		color: var(--primary-color);
+		font-size: 14pt;
+		font-stretch: condensed;
 		padding: 5px 6px !important;
 	}
 
@@ -1323,18 +1323,18 @@
 		margin-top: 0px !important;
 	}
     
-    #head h1 {
-        border-bottom: 69px solid #005057 !important;
-    }
+    	#head h1 {
+        	border-bottom: 69px solid #005057 !important;
+    	}
 
 	.txtSignUp {
 		background: var(--body-bg) !important;
 		border: none !important;
 		border-radius: 2px !important;
-        box-shadow: 0px 1px 2px rgba(0,0,0,.1) !important;
-        color: var(--primary-color) !important;
-        font-size: 14pt !important;
-        font-stretch: condensed !important;
+		box-shadow: 0px 1px 2px rgba(0,0,0,.1) !important;
+		color: var(--primary-color) !important;
+		font-size: 14pt !important;
+		font-stretch: condensed !important;
 		padding: 5px 10px !important;
 	}
 
@@ -1354,9 +1354,9 @@
 		color: transparent !important;
 	}
     
-    #head h1 {
-        border-bottom: 69px solid #005057 !important;
-    }
+        #head h1 {
+        	border-bottom: 69px solid #005057 !important;
+    	}
 }
 
 @-moz-document url("http://kissanime.ru/AdvanceSearch") {
