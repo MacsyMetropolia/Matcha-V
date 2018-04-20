@@ -1,6 +1,6 @@
 # Matcha-V
 
-<img src="preview_matcha-v.png" width="100%">
+<img src="preview_2_matcha-v.png" width="100%">
 
 Preview of <i>Matcha-V</i>.
 
@@ -27,8 +27,9 @@ Instruction
 
 <strong>Step 2 : Install the script </strong>
 <ol>
-<li> Via <a href="https://userstyles.org/styles/144798/matcha-v-ka-css">userstyles</a> : click the button <i>install Style</i> and it's done.</li>
-<li> Or <a href="https://pastebin.com/AqGYzCfx">manually</a> : create a new style in Stylish/Stylus and copy/paste the script in it. The script was written for Firefox Mozilla, that's why for Google Chrome and such, you'll have to click the button <i>Import from Mozilla.</i></li>
+<li> Via userstyles (<a href="https://userstyles.org/styles/144798/matcha-v-light-kissanime-css">light version</a> or <a href="https://userstyles.org/styles/158737/matcha-v-dark-kissanime-css">dark version</a>) : click the button <i>install Style</i> and it's done.</li>
+<li> Or manually (<a href="https://pastebin.com/AqGYzCfx">light version</a> or <a href="https://pastebin.com/79Xvz7Qr">dark version</a>) : create a new style in Stylish/Stylus and copy/paste the script in it. The script was written for Firefox Mozilla, that's why for Google Chrome and such, you'll have to click the button <i>Import from Mozilla.</i></li>
+<li><b>(NEW) STYLUS ONLY</b> : <a href="https://raw.githubusercontent.com/Catgrills/Matcha-V/master/matcha-v.user.css">click here</a>.</li>
 </ol>
 
 <strong>Step 3 : Install the font </strong>
