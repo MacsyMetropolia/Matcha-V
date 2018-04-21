@@ -4,7 +4,7 @@
 
 	/** DESCRIPTION : set the colors **/
 	:root {
-	    	--body-bg: #212121 !important; 
+		--body-bg: #212121 !important;
 		--card-bg: #374047 !important;
 		--border-color: #333 !important;
 		--link-color: #7C9EB7 !important;
@@ -63,14 +63,14 @@
 		font-size: 14pt !important;
 	}
 
+	#adsIfrme7,
 	iframe[id*="ads"],
 	div[style="text-align: center;"] > div[style="display: inline-table;"],
+	#divAds2,
 	#divFloatLeft,
 	#divFloatRight,
 	.divCloseBut,
-	#divAds2,
-	#adsIfrme7,
-	a.videoAdClose {
+	.videoAdClose {
 
 		/*** ADS CONTAINER ***/
 		display: none !important;
@@ -98,8 +98,8 @@
 	}
 
 	#head h1 a.logo {
-		background: url("https://i.imgur.com/jrwZ19c.png") no-repeat scroll !important;
-		background-size: auto 100% !important;
+		background: url("https://i.imgur.com/6FvGLoa.png") no-repeat scroll !important;
+		background-size: auto 135px !important;
 		width: 80% !important;
 		padding-bottom: 10px !important;
 		margin-top: 25px !important;
@@ -135,7 +135,7 @@
 		font-stretch: condensed !important;
 		font-weight: normal !important;
 		line-height: 18pt !important;
-		margin-top: -8px !important;
+		margin-top: -7px !important;
 		max-width: 30% !important;
 		overflow: hidden !important;
 		text-overflow: ellipsis !important;
@@ -724,15 +724,14 @@
 		background: var(--body-bg) !important;
 		border-radius: 2px;
 		box-shadow: 0px 1px 2px rgba(0, 0, 0, .1) !important;
-		padding: 30px 30px 50px 30px !important;
+		padding: 30px 30px 80px 30px !important;
 	}
 
-	.tooltip a {
+	.tooltip .bigChar {
 		font-size: 18pt !important;
 		font-stretch: condensed !important;
 		font-weight: normal !important;
 		letter-spacing: 0px !important;
-		margin-left: 10px;
 	}
 
 	.tooltip p {
@@ -740,7 +739,13 @@
 		font-size: 14pt !important;
 		font-stretch: condensed;
 		line-height: 18pt !important;
-		padding-left: 10px;
+		max-height: 100% !important;
+		overflow: hidden !important;
+		text-overflow: ellipsis !important;
+	}
+
+	.tooltip div {
+		margin-left: 15px !important;
 	}
 
 	#formProfile span[style="font-size: 15px; font-weight: bold"],
@@ -768,7 +773,7 @@
 	.lblAdvanceSearch {
 		color: var(--primary-color) !important;
 		font-size: 14pt !important;
-		font-stretch: condensed !important;        
+		font-stretch: condensed !important;
 	}
 
 	#formAdvanceSearch #genres li {
@@ -797,8 +802,7 @@
 		font-stretch: condensed !important;
 		text-align: left !important;
 		margin-top: -10px !important;
-		margin-bottom: 40px !important;
-		margin-left: 3px !important;
+		margin-bottom: 10px !important;
 	}
 
 	.alphabet a {
@@ -843,10 +847,13 @@
 		letter-spacing: 0px !important;
 	}
 
+	.barContent.episodeList {
+		margin-top: 0px !important;
+	}
+
 	#leftside .bigBarContainer .listing {
 		color: #FFF !important;
-		margin-top: -90px !important;
-		margin-left: 3px !important;
+		margin-top: -140px !important;
 	}
 
 	#leftside div[style="text-align: center"] {
@@ -870,7 +877,7 @@
 	div[style="display: inline-block; color: #7e7e7e"] {
 		font-size: 14pt !important;
 		font-stretch: condensed !important;
-		margin-top: 15px !important;
+		margin-top: -5px !important;
 		margin-left: -100px !important;
 	}
 
@@ -942,10 +949,10 @@
 	/* VIDEO */
 
 	/** DESCRIPTION : tweak the elements in the video page **/
-	.barContent[style="line-height: 23px; padding-top: 20px"] .clear, .barContent[style="line-height: 23px; padding-top: 20px"] .clear2, div[style*="border-color: #4e4e4e !important; position: relative; margin: 0 0 20px 0;"],
+	.barContent[style="line-height: 23px; padding-top: 20px"] .clear, .barContent[style="line-height: 23px; padding-top: 20px"] .clear2, 
+	div[style*="border-color: #4e4e4e !important; position: relative; margin: 0 0 20px 0;"],
 	div[style="font-size: 14px; font-weight: bold"],
 	.clsTempMSg {
-
 		/*** WARNING, BLANK SPACE ***/
 		display: none !important;
 	}
@@ -1336,6 +1343,11 @@
 @-moz-document url("http://kissanime.ru/Search/Anime"),
 url("http://kissanime.ru/AnimeList"),
 regexp("http://kissanime.ru/(Search|AnimeList|Status|Genre)/(Anime|AdvanceSearch|NewAndHot|Newest|LatestUpdate|MostPopular|Ongoing)\\?*"),regexp("http://kissanime.ru/Genre/.*") {
+	#leftside .barContent > div,
+	#containerRoot #container #leftside .bigBarContainer .barContent > div {
+		color: transparent !important;
+	}
+
 	#head h1 {
 		border-bottom: 69px solid #005057 !important;
 	}
@@ -1345,16 +1357,17 @@ regexp("http://kissanime.ru/(Search|AnimeList|Status|Genre)/(Anime|AdvanceSearch
 @-moz-document url("http://kissanime.ru/AdvanceSearch") {
 	#head h1 {
 		border-bottom: 69px solid #005057 !important;
-	} 
+	}
 
 	.txtSignUp {
 		background: var(--body-bg) !important;
 		border: none !important;
 		border-radius: 2px !important;
-		box-shadow: 0px 1px 2px rgba(0,0,0,.1) !important;
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, .1) !important;
 		color: var(--primary-color) !important;
 		font-size: 14pt !important;
 		font-stretch: condensed !important;
 		padding: 5px 10px !important;
 	}
+
 }
