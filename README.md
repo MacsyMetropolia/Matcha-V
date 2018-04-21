@@ -36,6 +36,7 @@ Instruction
     <li><a href="https://userstyles.org/styles/158786/matcha-v-manga-light-kissmanga-css">kissmanga light version</a></li>
   </ol>
 </li>
+<br></br>
 <li>Directly with <b>Stylus</b> : 
   <br></br>
   <ol>
