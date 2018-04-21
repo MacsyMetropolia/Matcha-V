@@ -1,6 +1,6 @@
 # Matcha-V
 
-<img src="preview_2_matcha-v.png" width="100%">
+<img src="preview_3_matcha-v.png" width="100%">
 
 Preview of <i>Matcha-V</i>.
 
