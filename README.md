@@ -27,7 +27,7 @@ Instruction
 
 <strong>Step 2 : Install the script </strong>
 <ol>
-<li> Via userstyles (<a href="https://userstyles.org/styles/144798/matcha-v-light-kissanime-css">kissanime light version</a> or <a href="https://userstyles.org/styles/158737/matcha-v-dark-kissanime-css">kissanime dark version</a>) : click the button <i>install Style</i> and it's done.</li>
+<li> Via userstyles (<a href="https://userstyles.org/styles/144798/matcha-v-anime-light-kissanime-css">kissanime light version</a> or <a href="https://userstyles.org/styles/158737/matcha-v-anime-dark-kissanime-css">kissanime dark version</a>, <a href="https://userstyles.org/styles/158786/matcha-v-manga-light-kissmanga-css">kissmanga light version</a> or <a href="https://userstyles.org/styles/158785/matcha-v-manga-dark-kissmanga-css">kissmanga dark version</a>) : click the button <i>install Style</i> and it's done.</li>
 <li> Or manually (<a href="https://pastebin.com/AqGYzCfx">kissanime light version</a> or <a href="https://pastebin.com/79Xvz7Qr">kissanime dark version</a>, <a href="https://pastebin.com/PmgENz8d">kissmanga light version</a> or <a href="https://pastebin.com/cbmi0vw2">kissmanga dark version</a>) : create a new style in Stylish/Stylus and copy/paste the script in it. The script was written for Firefox Mozilla, that's why for Google Chrome and such, you'll have to click the button <i>Import from Mozilla.</i></li>
 <li><b>(NEW) STYLUS ONLY</b> : <a href="https://raw.githubusercontent.com/Catgrills/Matcha-V/master/matcha-v-anime.user.css">click here for kissanime</a> or <a href="https://raw.githubusercontent.com/Catgrills/Matcha-V/master/matcha-v-manga.user.css">click here for kissmanga</a> </li>
 </ol>
