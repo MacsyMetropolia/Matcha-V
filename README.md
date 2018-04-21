@@ -35,7 +35,7 @@ Instruction
     <li><a href="https://userstyles.org/styles/158786/matcha-v-manga-light-kissmanga-css">kissmanga light version</a></li>
   </ol>
 </li>
-<li>Directly with <b>Stylus</b> : 
+<li>Or directly with <b>Stylus</b> : 
   <ol>
     <li><a href="https://raw.githubusercontent.com/Catgrills/Matcha-V/master/matcha-v-anime.user.css">click here for kissanime</a></li>
     <li><a href="https://raw.githubusercontent.com/Catgrills/Matcha-V/master/matcha-v-manga.user.css">click here for kissmanga</a></li>
