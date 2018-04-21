@@ -27,7 +27,7 @@ Instruction
 + Via <b>userstyles</b> : 
   1. <a href="https://userstyles.org/styles/158737/matcha-v-anime-dark-kissanime-css">Kissanime Dark Theme</a> or <a href="https://userstyles.org/styles/144798/matcha-v-anime-light-kissanime-css">Kissanime Light theme</a>
   2. <a href="https://userstyles.org/styles/158785/matcha-v-manga-dark-kissmanga-css">Kissmanga Dark Theme</a> or <a href="https://userstyles.org/styles/158786/matcha-v-manga-light-kissmanga-css">Kissmanga Light theme</a>
-+ Or directly with <b>Stylus</b> : <a href="https://raw.githubusercontent.com/Catgrills/Matcha-V/master/matcha-v-anime.user.css">click here for kissanime</a> or <a href="https://raw.githubusercontent.com/Catgrills/Matcha-V/master/matcha-v-manga.user.css">click here for kissmanga</a></li>
++ Or directly with <b>Stylus</b> : <a href="https://raw.githubusercontent.com/Catgrills/Matcha-V/master/matcha-v-anime.user.css">click here for kissanime</a> and <a href="https://raw.githubusercontent.com/Catgrills/Matcha-V/master/matcha-v-manga.user.css">click here for kissmanga</a></li>
 
 <strong>Step 3 : Install the font </strong>
 
