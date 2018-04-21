@@ -28,6 +28,7 @@ Instruction
 <strong>Step 2 : Install the script </strong>
 <ol>
 <li>Via <b>userstyles</b> : click the button <i>install Style</i> and it's done.
+
   <ol>
     <li><a href="https://userstyles.org/styles/158737/matcha-v-anime-dark-kissanime-css">kissanime dark version</a></li>
     <li><a href="https://userstyles.org/styles/144798/matcha-v-anime-light-kissanime-css">kissanime light version </a></li>
@@ -36,6 +37,7 @@ Instruction
   </ol>
 </li>
 <li>Directly with <b>Stylus</b> : 
+
   <ol>
     <li><a href="https://raw.githubusercontent.com/Catgrills/Matcha-V/master/matcha-v-anime.user.css">click here for kissanime</a></li>
     <li><a href="https://raw.githubusercontent.com/Catgrills/Matcha-V/master/matcha-v-manga.user.css">click here for kissmanga</a></li>
