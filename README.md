@@ -29,10 +29,10 @@ Instruction
 <ol>
 <li>Via <b>userstyles</b> : click the button <i>install Style</i> and it's done.
   <ol>
-    <li><a href="https://userstyles.org/styles/158737/matcha-v-anime-dark-kissanime-css">kissanime dark version</a></li>
-    <li><a href="https://userstyles.org/styles/144798/matcha-v-anime-light-kissanime-css">kissanime light version </a></li>
-    <li><a href="https://userstyles.org/styles/158785/matcha-v-manga-dark-kissmanga-css">kissmanga dark version </a></li>
-    <li><a href="https://userstyles.org/styles/158786/matcha-v-manga-light-kissmanga-css">kissmanga light version</a></li>
+    <li><a href="https://userstyles.org/styles/158737/matcha-v-anime-dark-kissanime-css">kissanime dark theme</a></li>
+    <li><a href="https://userstyles.org/styles/144798/matcha-v-anime-light-kissanime-css">kissanime light theme</a></li>
+    <li><a href="https://userstyles.org/styles/158785/matcha-v-manga-dark-kissmanga-css">kissmanga dark theme</a></li>
+    <li><a href="https://userstyles.org/styles/158786/matcha-v-manga-light-kissmanga-css">kissmanga light theme</a></li>
   </ol>
 </li>
 <li>Or directly with <b>Stylus</b> : 
