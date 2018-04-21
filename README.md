@@ -7,7 +7,7 @@ Preview of <i>Matcha-V</i>.
 About
 -------------------------------
 
-<i>Matcha-V</i> is a custom stylesheet for <i>Kissanime</i>.
+<i>Matcha-V</i> is a custom stylesheet for <i>Kissanime</i> and <i>Kissmanga</i>.
 
 Userstyles are CSS code designed to alter the appearance of one, some, or all sites.
 
@@ -27,9 +27,9 @@ Instruction
 
 <strong>Step 2 : Install the script </strong>
 <ol>
-<li> Via userstyles (<a href="https://userstyles.org/styles/144798/matcha-v-light-kissanime-css">light version</a> or <a href="https://userstyles.org/styles/158737/matcha-v-dark-kissanime-css">dark version</a>) : click the button <i>install Style</i> and it's done.</li>
-<li> Or manually (<a href="https://pastebin.com/AqGYzCfx">light version</a> or <a href="https://pastebin.com/79Xvz7Qr">dark version</a>) : create a new style in Stylish/Stylus and copy/paste the script in it. The script was written for Firefox Mozilla, that's why for Google Chrome and such, you'll have to click the button <i>Import from Mozilla.</i></li>
-<li><b>(NEW) STYLUS ONLY</b> : <a href="https://raw.githubusercontent.com/Catgrills/Matcha-V/master/matcha-v.user.css">click here</a>.</li>
+<li> Via userstyles (<a href="https://userstyles.org/styles/144798/matcha-v-light-kissanime-css">kissanime light version</a> or <a href="https://userstyles.org/styles/158737/matcha-v-dark-kissanime-css">kissanime dark version</a>) : click the button <i>install Style</i> and it's done.</li>
+<li> Or manually (<a href="https://pastebin.com/AqGYzCfx">kissanime light version</a> or <a href="https://pastebin.com/79Xvz7Qr">kissanime dark version</a>) : create a new style in Stylish/Stylus and copy/paste the script in it. The script was written for Firefox Mozilla, that's why for Google Chrome and such, you'll have to click the button <i>Import from Mozilla.</i></li>
+<li><b>(NEW) STYLUS ONLY</b> : <a href="https://raw.githubusercontent.com/Catgrills/Matcha-V/master/matcha-v-anime.user.css">click here for kissanime</a> or <a href="https://raw.githubusercontent.com/Catgrills/Matcha-V/master/matcha-v-manga.user.css">click here for kissmanga</a> </li>
 </ol>
 
 <strong>Step 3 : Install the font </strong>
