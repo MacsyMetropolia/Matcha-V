@@ -112,16 +112,16 @@
 		display: none !important;
 	}
     
-    :root {
-        --avatar: url("https://vignette.wikia.nocookie.net/nichijou/images/e/e4/Anime-hakase-kawaii-nichijou-Favim.com-218145.jpg/revision/latest?cb=20121221073705") !important;
-        --banner: url("http://stuffpoint.com/anime-and-manga/image/322583-anime-and-manga-one-piece-colorful.jpg") !important;
-        --hot: url("https://s7.postimg.cc/52wxo944r/00_FJbu.png") !important;
-        --link: url("http://icon-park.com/imagefiles/link_icon_blue.png") !important;
-        --logo: url("https://s7.postimg.cc/x1r3fm5wp/v_RRZ6_X.png") !important;
-        --next: url("https://s7.postimg.cc/stwb6i9if/Rk0_Cq3.png") !important;
-        --prev: url("https://s7.postimg.cc/j9cojmrw7/tr_Eva_Q.png") !important;
-        --search: url("https://www.freeiconspng.com/uploads/flat-search-find-icon-13.png") !important;
-    }
+        :root {
+		--avatar: url("https://vignette.wikia.nocookie.net/nichijou/images/e/e4/Anime-hakase-kawaii-nichijou-Favim.com-218145.jpg/revision/latest?cb=20121221073705") !important;
+		--banner: url("http://stuffpoint.com/anime-and-manga/image/322583-anime-and-manga-one-piece-colorful.jpg") !important;
+		--hot: url("https://s7.postimg.cc/52wxo944r/00_FJbu.png") !important;
+		--link: url("http://icon-park.com/imagefiles/link_icon_blue.png") !important;
+		--logo: url("https://s7.postimg.cc/x1r3fm5wp/v_RRZ6_X.png") !important;
+		--next: url("https://s7.postimg.cc/stwb6i9if/Rk0_Cq3.png") !important;
+		--prev: url("https://s7.postimg.cc/j9cojmrw7/tr_Eva_Q.png") !important;
+		--search: url("https://www.freeiconspng.com/uploads/flat-search-find-icon-13.png") !important;
+        }
 
 	/* HEADER */
     
