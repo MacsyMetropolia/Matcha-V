@@ -1,14 +1,14 @@
 /* ==UserStyle==
 @name           Matcha-V [MANGA]
 @namespace      https://github.com/Catgrills/Matcha-V
-@version        1.0.1
+@version        1.0.2
 @description    An userstyle for KissManga called Matcha-V
 @author         Catgrills/Katgrills
 @preprocessor 	uso
 @var select theme 'Theme' {
 	"Light": `
 	:root {
-                --body-bg: #F9F8F8 !important;
+        --body-bg: #F9F8F8 !important;
 		--card-bg: #F0F1F5 !important;
 		--border-color: #BEBEBE !important;
 		--link-color: #546A7B !important;
@@ -19,7 +19,7 @@
 	`,
 	"Dark":`
 	:root {
-	        --body-bg: #212121 !important; 
+	    --body-bg: #212121 !important; 
 		--card-bg: #374047 !important;
 		--border-color: #333 !important;
 		--link-color: #7C9EB7 !important;
@@ -98,8 +98,7 @@
 	#divAds2,
 	iframe,
 	img[src="/Content/images/bookmark1.png"],
-	#navsubbar a[href="/Register/Member"],
-	.videoAdClose {
+	#navsubbar a[href="/Register/Member"] {
 		display: none !important;
 	}
 
@@ -112,12 +111,23 @@
 		/*** FOOTER ***/
 		display: none !important;
 	}
+    
+    :root {
+        --avatar: url("https://vignette.wikia.nocookie.net/nichijou/images/e/e4/Anime-hakase-kawaii-nichijou-Favim.com-218145.jpg/revision/latest?cb=20121221073705") !important;
+        --banner: url("http://stuffpoint.com/anime-and-manga/image/322583-anime-and-manga-one-piece-colorful.jpg") !important;
+        --hot: url("https://s7.postimg.cc/52wxo944r/00_FJbu.png") !important;
+        --link: url("http://icon-park.com/imagefiles/link_icon_blue.png") !important;
+        --logo: url("https://s7.postimg.cc/x1r3fm5wp/v_RRZ6_X.png") !important;
+        --next: url("https://s7.postimg.cc/stwb6i9if/Rk0_Cq3.png") !important;
+        --prev: url("https://s7.postimg.cc/j9cojmrw7/tr_Eva_Q.png") !important;
+        --search: url("https://www.freeiconspng.com/uploads/flat-search-find-icon-13.png") !important;
+    }
 
 	/* HEADER */
-
+    
 	/** DESCRIPTION : change the elements of the header/upper part **/
 	#head h1 {
-		background: no-repeat url('https://i.cubeupload.com/SYS7Ip.jpg') center !important;
+		background: no-repeat var(--banner) center !important;
 		background-size: cover !important;
 		border-top: 10px solid #2980b9 !important;
 		border-bottom: 65px solid #2C3E50 !important;
@@ -129,7 +139,7 @@
 	}
 
 	#head h1 a.logo {
-		background: url("https://i.cubeupload.com/vRRZ6X.png") no-repeat scroll !important;
+		background: var(--logo) no-repeat !important;
 		background-size: auto 135px !important;
 		width: 80% !important;
 		padding-bottom: 10px !important;
@@ -238,7 +248,7 @@
 	}
 
 	div[style="margin: 10px 48px 10px 0"] a {
-		background: no-repeat url("https://i.cubeupload.com/Lbl5BW.png") center !important;
+		background: no-repeat var(--search) center !important;
 		background-size: 28px auto !important;
 		color: transparent !important;
 		font-size: 11pt !important;
@@ -298,7 +308,7 @@
 	}
 
 	#aDropDown {
-		background: no-repeat url("https://i.cubeupload.com/l1CUNA.jpg") center !important;
+		background: no-repeat var(--avatar) center !important;
 		background-color: #181818 !important;
 		background-size: cover !important;
 		border: none !important;
@@ -473,7 +483,7 @@
 	}
 
 	a.prev {
-		background: url("https://i.cubeupload.com/trEvaQ.png") !important;
+		background: var(--prev) !important;
 		background-size: 30px auto !important;
 		background-position: center center !important;
 		margin-top: 5px !important;
@@ -482,7 +492,7 @@
 	}
 
 	a.next {
-		background: url("https://i.cubeupload.com/Rk0Cq3.png") !important;
+		background: var(--next) !important;
 		background-size: 30px auto !important;
 		background-position: center center !important;
 		margin-top: 5px !important;
@@ -588,7 +598,7 @@
 	}
 
 	img[src*="hot.png"] {
-		background: no-repeat url("https://i.cubeupload.com/00FJbu.png") left !important;
+		background: no-repeat var(--hot) left !important;
 		background-size: cover !important;
 		height: 0px !important;
 		width: 0px !important;
@@ -670,7 +680,7 @@
 	}
 
 	img[src*="bullet.png"] {
-		background: no-repeat url("https://i.cubeupload.com/FjWH5U.png") center !important;
+		background: no-repeat var(--link) center !important;
 		background-size: cover !important;
 		height: 0px !important;
 		width: 0px !important;
@@ -875,20 +885,6 @@
 		font-stretch: condensed !important;
 		margin-top: 15px !important;
 		margin-left: -100px !important;
-	}
-
-	#nextEpisodeCountDown {
-		color: #71BA51 !important;
-		font-weight: normal !important;
-	}
-
-	img[src*="subdub.png"] {
-		background: no-repeat url("https://i.cubeupload.com/qtNOBb.png") center !important;
-		background-size: cover !important;
-		height: 0px !important;
-		width: 0px !important;
-		padding: 18px 0px 0px 18px !important;
-		margin-bottom: -3px !important;
 	}
 
 	.line {
@@ -1149,3 +1145,4 @@
 	}
 
 }
+
