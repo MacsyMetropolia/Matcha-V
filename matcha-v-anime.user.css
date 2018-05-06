@@ -1,10 +1,10 @@
 /* ==UserStyle==
-@name              Matcha-V [ANIME]
+@name         Matcha-V [ANIME]
 @namespace    https://github.com/Catgrills/Matcha-V
-@version           1.0.4
-@description    An userstyle for KissAnime called Matcha-V
-@author            Catgrills/Katgrills
-@preprocessor 	uso
+@version      1.0.5
+@description  An userstyle for KissAnime called Matcha-V
+@author       Catgrills/Katgrills
+@preprocessor uso
 @var select theme 'Theme' {
 	"Light": `
 	:root {
@@ -1006,7 +1006,7 @@
 	.lbl {
 		visibility: hidden;
 	}
-
+	
 	#selectEpisode {
 		background: #3B3F4C !important;
 		border: none !important;
@@ -1018,6 +1018,22 @@
 		width: 23% !important;
 		position: absolute !important;
 		margin-top: -93px !important;
+		margin-left: 100px;
+	}
+
+	#selectServer {
+		background: #3B3F4C !important;
+		border: none !important;
+		border-radius: 2px !important;
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, .2) !important;
+		font-size: 15pt !important;
+		font-stretch: condensed !important;
+		padding: 10px !important;
+		width: 140px !important;
+		position: absolute !important;
+		top: 219px !important;    
+		margin-left: 118px;
+		visibility: visible !important;
 	}
 
 	.video-js .vjs-tech {
