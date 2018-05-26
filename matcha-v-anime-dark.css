@@ -1321,6 +1321,16 @@
 	div[style="font-size:11px;position:absolute; right:5px; top: 0px"] {
 		display: none !important;
 	}
+	.episodeList div[style="display: inline-block; color: #7e7e7e"] {
+		position: relative;
+		bottom: 35px;
+		color: white !important;
+	}
+	.bigBarContainer .barTitle,
+	.bigBarContainer .listing th[width="85%"],
+	.bigBarContainer .listing th[width="15%"]{
+		visibility: hidden;
+	}
 
 }
 
